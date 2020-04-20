@@ -68,6 +68,12 @@ a:hover{
     }
 }
 
+@media (max-width: 768px) {
+    .special-container {
+        width: auto;
+    }
+}
+
 .row {
     margin-right: -15px;
     margin-left: -15px
