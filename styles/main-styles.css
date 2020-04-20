@@ -285,10 +285,12 @@ footer .social_icons_list li a:hover{
     -ms-transition: left 0.2s ease-in-out;
     -o-transition: left 0.2s ease-in-out;
     transition: left 0.2s ease-in-out;
+    display: none;
 }
 
 .drawer_open{
 	left: 0;
+	display: block;
 }
 
 .mobile_overlay .header_container{
