@@ -445,8 +445,9 @@ footer .social_icons_list li a:hover{
 
 @media screen and (max-width: 480px){
 	.middle_content{
-		background: url(../images/mobile_background.jpg) no-repeat top center;
+		background: url(../images/mobile_background.jpg) no-repeat;
 		background-size: cover;
+        background-position: bottom;
 	}
 
 	.middle_content .container{
