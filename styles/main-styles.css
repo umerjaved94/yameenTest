@@ -309,7 +309,7 @@ footer .social_icons_list li a:hover{
 }
 
 .mobile_overlay .logo img{
-	width: 130px;
+	max-height: 36px;
     display: block;
 }
 
@@ -375,7 +375,7 @@ footer .social_icons_list li a:hover{
 	opacity: 1;
 }
 
-@media screen and (min-width: 769px){
+@media screen and (min-width: 768px){
 	.mobile_control{
 		display: none;
 	}
@@ -422,7 +422,7 @@ footer .social_icons_list li a:hover{
 	}
 
 	header .navbar_desktop .logo .logo_link img{
-		max-width: 130px;
+		max-height: 36px;
 	}
 
 	.middle_content .title_and_button .learn_more{
