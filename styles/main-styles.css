@@ -456,7 +456,7 @@ footer .social_icons_list li a:hover{
 	}
 }
 
-@media screen and (min-width: 450px){
+@media screen and (min-width: 550px){
     .title_and_button h1 br{
         display: none;
     }
