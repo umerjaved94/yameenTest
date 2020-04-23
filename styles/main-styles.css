@@ -287,11 +287,11 @@ footer .social_icons_list li a:hover{
     right: 0;
     background: white;
     z-index: 99;
-    -webkit-transition: left 0.2s ease-in-out;
-    -moz-transition: left 0.2s ease-in-out;
-    -ms-transition: left 0.2s ease-in-out;
-    -o-transition: left 0.2s ease-in-out;
-    transition: left 0.2s ease-in-out;
+    -webkit-transition: left 0.5s ease;
+    -moz-transition: left 0.5s ease;
+    -ms-transition: left 0.5s ease;
+    -o-transition: left 0.5s ease;
+    transition: left 0.5s ease;
 }
 
 .drawer_open{
