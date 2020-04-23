@@ -444,12 +444,12 @@ footer .social_icons_list li a:hover{
 	}
 
     footer{
-        padding-top: 100px;
+        padding-top: 94px;
         background: rgb(119,202,219);
         background: -moz-linear-gradient(0deg, rgba(119,202,219,0.7) 0%, rgba(119,202,219,0.7) 30%, rgba(255,255,255,0) 100%);
         background: -webkit-linear-gradient(0deg, rgba(119,202,219,0.7) 0%, rgba(119,202,219,0.7) 30%, rgba(255,255,255,0) 100%);
-        background: linear-gradient(0deg, rgba(119,202,219,0.7) 0%, rgba(119,202,219,0.7) 30%, rgba(255,255,255,0) 100%);
-        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#77cadb",endColorstr="#ffffff",GradientType=1); 
+        background: url("../images/gradient.png");
+        background-size: cover;
     }
 }
 
