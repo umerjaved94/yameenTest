@@ -441,13 +441,21 @@ footer .social_icons_list li a:hover{
 	header .navbar_desktop .logo{
 		width: 100%;
 	}
+
+    footer{
+        padding-top: 100px;
+        background: rgb(119,202,219);
+        background: -moz-linear-gradient(0deg, rgba(119,202,219,0.8) 0%, rgba(119,202,219,0.8) 30%, rgba(255,255,255,0) 100%);
+        background: -webkit-linear-gradient(0deg, rgba(119,202,219,0.8) 0%, rgba(119,202,219,0.8) 30%, rgba(255,255,255,0) 100%);
+        background: linear-gradient(0deg, rgba(119,202,219,0.8) 0%, rgba(119,202,219,0.8) 30%, rgba(255,255,255,0) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#77cadb",endColorstr="#ffffff",GradientType=1); 
+    }
 }
 
 @media screen and (max-width: 480px){
 	.middle_content{
-		background: url(../images/mobile_background.jpg) no-repeat;
+		background: url(../images/mobile_background.jpg) no-repeat top center;
 		background-size: cover;
-        background-position: bottom;
 	}
 
 	.middle_content .container{
